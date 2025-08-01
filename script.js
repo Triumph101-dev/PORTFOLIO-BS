@@ -66,7 +66,7 @@ button.addEventListener('click', () => {
   if (document.body.classList.contains('dark')) {
     icon.className = 'fa fa-sun-o';
   } else {
-    icon.className = 'fa fa-moon-o';
+    icon.className = 'fa-solid fa-moon';
   }
   
   // Update nav background immediately after theme change
