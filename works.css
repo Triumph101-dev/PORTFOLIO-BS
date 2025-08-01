@@ -1,0 +1,33 @@
+.works {
+  padding: 7rem 1.5rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.works .hero {
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Reduced from 150px */
+    gap: 1rem;
+    margin-top: 3rem;
+}
+
+.image-item {
+  width: 100%;
+  max-width: 400px;
+  max-height: 500px;
+  /* margin: 1.5rem auto 0; */
+  border-radius: 10px;
+  overflow: hidden;
+  background-color: #f5f5f5;
+}
+
+.image-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Work</title>
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<!-- Owl Carousel CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+        <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="works.css">
+</head>
+<body>
+    <nav>
+      <div class="nav-start">
+        <div class="image">
+          <img src="dp.jpg" alt="" loading="lazy" />
+        </div>
+      </div>
+
+      <div class="nav-middle" id="nav-middle">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+          <li><a href="process.html">My Process</a></li>
+          <li><a href="index.html">About</a></li>
+        </ul>
+      </div>
+
+      <div class="tablet-nav">
+        <button id="theme-toggle"><i class="fa fa-moon-o" aria-hidden="true"></i></button>
+        <div class="hamburger" id="hamburger-btn">
+          <i class="fa fa-bars" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="nav-end" id="nav-end">
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Menu overlay -->
+      <div id="overlay-menu" class="hidden">
+        <div class="menu-content">
+          <button class="close-btn" id="close-menu">✕</button>
+          <ul>
+            <li><a class="menu-item" href="index.html">Home</a></li>
+            <li><a class="menu-item" href="process.css">My Process</a></li>
+            <li><a class="menu-item" href="index.html">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="works">
+      <div class="hero">
+        <div class="text">
+            <h1>My Latest Projects</h1>
+        </div>
+      </div>
+        <div class="owl-carousel">
+            <div class="image-item">
+                <img src="/images/design7.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design8.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design9.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design10.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design11.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design12.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design13.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+        <div class="image-grid">
+          <div class="image-item">
+                <img src="/images/design2.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design1.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design3.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design4.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design5.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/design6.jpg" alt="" loading="lazy">
+            </div>
+            <div class="image-item">
+                <img src="/images/banner.jpg" alt="" loading="lazy">
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+    <div class="container">
+        <h3>Ready to start your project?</h3>
+        <p>Let's work together to bring your ideas to life</p>
+        <a class="contact-button" href="contact.html">Get in Touch</a>
+    </div>
+</footer>
+</body>
+<script src="script.js"></script>
+<!-- jQuery -->
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<!-- Owl Carousel JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    
+  <script>
+    $(document).ready(function () {
+      $(".owl-carousel").owlCarousel({
+        items: 3,
+        loop: true,
+        margin: 30,
+        autoplay: true,
+        autoplayTimeout: 1000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1
+          },
+          768: {
+            items: 2
+          },
+          1000: {
+            items: 3
+          }
+        }
+      });
+    });
+  </script>
+</html>
