@@ -64,7 +64,7 @@ button.addEventListener('click', () => {
   
   // Update icon based on theme
   if (document.body.classList.contains('dark')) {
-    icon.className = 'fa fa-sun-o';
+    icon.className = 'fa-solid fa-sun';
   } else {
     icon.className = 'fa-solid fa-moon';
   }
